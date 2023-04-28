@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Portofolio</title>
+		<link rel="stylesheet" href="css/portofolio.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	
+	</head>
+	<body>
+	<!-- NAVBAR -->
+    <div class="wrapper">
+      <nav>
+        <div>
+        
+          <a href="#" class="logo">HACKTIV8</a>
+        </div>
+        <input type="checkbox" name="" id="toggle" />
+        <label for="toggle"><i class="material-icons">menu</i></label>
+        <div class="menu">
+          <ul class="ul-nav">
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="todo.html">Todos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+			<div class="container">
+				<center><h1 style="color: black;">WE CREATIVE QUALITY DESIGNS.</h1></center>
+				<center><p style="color: black;">
+					We Specialize in Web Design / Development and Graphic Design</p></center>
+				<div class="slider">
+					<div>
+						<a href="#">
+							<img src="image/foto1.jpg" alt="Image 1">
+						</a>            
+					</div>
+					<div>
+						<a href="#">
+							<img src="image/foto2.jpg" alt="Image 2">
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="image/foto3.jpg" alt="Image 3">
+						</a>            
+					</div>
+					<div>
+						<a href="#">
+							<img src="image/foto4.jpg" alt="Image 4">
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="image/foto5.jpeg" alt="Image 5">
+						</a>            
+					</div>
+				</div>
+			</div>
+				
+		
+			
+			<!-- JQuery -->
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			
+			<!-- Slick JS -->    
+			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		
+			<!-- Our Script -->
+			<script>
+				$(document).ready(function(){
+					$('.slider').slick({
+					autoplay: true,
+					autoplaySpeed: 2500,
+					dots: true
+					});
+				});
+			</script>
+	</body>
+</html>
